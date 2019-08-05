@@ -1,0 +1,30 @@
+.game-field {
+  background-color: orange;
+  padding: 20px;
+  /*min-height: 10vh;*/
+  /*margin: 1px 1px 1px 1px;*/
+  /*line-height: 10vh;*/
+}
+
+.target {
+  background-color: green;
+  color: white;
+  font-size: 20pt;
+  text-align: center;
+}
+
+.miss {
+  background-color: red;
+/*  color: white;
+  font-size: 20pt;
+  text-align: center;*/
+}
+
+.field {
+	display: grid;
+	grid-gap: 0.7vw;
+	grid-template-rows: repeat(6, 80px);
+	grid-template-columns: repeat(6, 80px);
+	margin: 10px 0;
+
+}
